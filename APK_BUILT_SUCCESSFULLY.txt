@@ -1,0 +1,47 @@
+========================================
+  ✓ APK BUILD SUCCESSFUL!
+========================================
+
+Your Wasalni app APK has been successfully built!
+
+APK Location:
+C:\Users\HP\Downloads\wasalniservice-main\wasalniservice-main\android\app\build\outputs\apk\debug\app-debug.apk
+
+========================================
+  How to Install on Your Android Device
+========================================
+
+1. Copy the APK file to your Android device
+   - Transfer via USB, email, or cloud storage
+
+2. On your Android device:
+   - Go to Settings → Security
+   - Enable "Install from unknown sources" or "Install unknown apps"
+   - Allow installation from your file manager/email app
+
+3. Open the APK file on your device
+   - Use a file manager to locate the APK
+   - Tap on it to install
+
+4. Launch the app
+   - Look for "Wasalni" in your app drawer
+   - The app is now ready to use!
+
+========================================
+  Notes
+========================================
+
+- This is a DEBUG APK (for testing)
+- For production release, you'll need to:
+  1. Generate a signing key
+  2. Build a release APK
+  3. Sign the APK
+
+- To rebuild after making changes:
+  1. Run: npm run build
+  2. Run: npx cap sync
+  3. Run: cd android && .\gradlew.bat assembleDebug
+   (Make sure JAVA_HOME is set to Java 21)
+
+========================================
+
